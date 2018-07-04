@@ -1,0 +1,467 @@
+@charset "UTF-8";
+
+/* ! CSSの構成 レイアウト ================================================== 
+  
+スプリット
+ギャップ
+  
+-------------------------------------------------- */
+/* ! スプリット ================================================== */
+[class*="split_"] {
+  display: -webkit-flex;  display: flex;
+  -webkit-flex-wrap: wrap;  flex-wrap: wrap;
+}
+
+.split_1 > li {
+  width: 100%;
+}
+
+.split_2 > li {
+  width: 50%;
+}
+
+.split_3 > li {
+  width: 33.3333333333%;
+}
+
+.split_4 > li {
+  width: 25%;
+}
+
+.split_5 > li {
+  width: 20%;
+}
+
+.split_6 > li {
+  width: 16.6666666667%;
+}
+
+.split_7 > li {
+  width: 14.2857142857%;
+}
+
+.split_8 > li {
+  width: 12.5%;
+}
+
+.split_9 > li {
+  width: 11.1111111111%;
+}
+
+@media screen and (max-width: 1280px) {
+  .split_1_1280 > li {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .split_2_1280 > li {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .split_3_1280 > li {
+    width: 33.3333333333%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .split_4_1280 > li {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .split_5_1280 > li {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .split_6_1280 > li {
+    width: 16.6666666667%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .split_7_1280 > li {
+    width: 14.2857142857%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .split_8_1280 > li {
+    width: 12.5%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .split_9_1280 > li {
+    width: 11.1111111111%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .split_1_960 > li {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .split_2_960 > li {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .split_3_960 > li {
+    width: 33.3333333333%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .split_4_960 > li {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .split_5_960 > li {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .split_6_960 > li {
+    width: 16.6666666667%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .split_7_960 > li {
+    width: 14.2857142857%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .split_8_960 > li {
+    width: 12.5%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .split_9_960 > li {
+    width: 11.1111111111%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .split_1_600 > li {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .split_2_600 > li {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .split_3_600 > li {
+    width: 33.3333333333%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .split_4_600 > li {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .split_5_600 > li {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .split_6_600 > li {
+    width: 16.6666666667%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .split_7_600 > li {
+    width: 14.2857142857%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .split_8_600 > li {
+    width: 12.5%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .split_9_600 > li {
+    width: 11.1111111111%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .split_1_480 > li {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .split_2_480 > li {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .split_3_480 > li {
+    width: 33.3333333333%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .split_4_480 > li {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .split_5_480 > li {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .split_6_480 > li {
+    width: 16.6666666667%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .split_7_480 > li {
+    width: 14.2857142857%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .split_8_480 > li {
+    width: 12.5%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .split_9_480 > li {
+    width: 11.1111111111%;
+  }
+}
+/* !-------------------- ギャップ -- */
+[class*="gap_"] {
+  border: 1px solid transparent;
+}
+.gap_2 {
+  margin: -2px;
+}
+
+.gap_2 > li {
+  padding: 2px;
+}
+
+.gap_4 {
+  margin: -4px;
+}
+
+.gap_4 > li {
+  padding: 4px;
+}
+
+.gap_6 {
+  margin: -6px;
+}
+
+.gap_6 > li {
+  padding: 6px;
+}
+
+.gap_8 {
+  margin: -8px;
+}
+
+.gap_8 > li {
+  padding: 8px;
+}
+
+.gap_5 {
+  margin: -5px;
+}
+
+.gap_5 > li {
+  padding: 5px;
+}
+
+.gap_10 {
+  margin: -10px;
+}
+
+.gap_10 > li {
+  padding: 10px;
+}
+
+.gap_15 {
+  margin: -15px;
+}
+
+.gap_15 > li {
+  padding: 15px;
+}
+
+.gap_20 {
+  margin: -20px;
+}
+
+.gap_20 > li {
+  padding: 20px;
+}
+
+.gap_25 {
+  margin: -25px;
+}
+
+.gap_25 > li {
+  padding: 25px;
+}
+
+.gap_30 {
+  margin: -30px;
+}
+
+.gap_30 > li {
+  padding: 30px;
+}
+
+.gap_35 {
+  margin: -35px;
+}
+
+.gap_35 > li {
+  padding: 35px;
+}
+
+.gap_40 {
+  margin: -40px;
+}
+
+.gap_40 > li {
+  padding: 40px;
+}
+
+.gap_45 {
+  margin: -45px;
+}
+
+.gap_45 > li {
+  padding: 45px;
+}
+
+.gap_50 {
+  margin: -50px;
+}
+
+.gap_50 > li {
+  padding: 50px;
+}
+
+.gap_55 {
+  margin: -55px;
+}
+
+.gap_55 > li {
+  padding: 55px;
+}
+
+.gap_60 {
+  margin: -60px;
+}
+
+.gap_60 > li {
+  padding: 60px;
+}
+
+.gap_8 {
+  margin: -8px;
+}
+
+.gap_8 > li {
+  padding: 8px;
+}
+
+.gap_16 {
+  margin: -16px;
+}
+
+.gap_16 > li {
+  padding: 16px;
+}
+
+.gap_24 {
+  margin: -24px;
+}
+
+.gap_24 > li {
+  padding: 24px;
+}
+
+.gap_32 {
+  margin: -32px;
+}
+
+.gap_32 > li {
+  padding: 32px;
+}
+
+.gap_40 {
+  margin: -40px;
+}
+
+.gap_40 > li {
+  padding: 40px;
+}
+
+.gap_48 {
+  margin: -48px;
+}
+
+.gap_48 > li {
+  padding: 48px;
+}
+
+.gap_56 {
+  margin: -56px;
+}
+
+.gap_56 > li {
+  padding: 56px;
+}
+
+.gap_10 {
+  margin: -10px;
+}
+
+.gap_10 > li {
+  padding: 10px;
+}
+
+.gap_20 {
+  margin: -20px;
+}
+
+.gap_20 > li {
+  padding: 20px;
+}
+
+.gap_30 {
+  margin: -30px;
+}
+
+.gap_30 > li {
+  padding: 30px;
+}
+
+.gap_40 {
+  margin: -40px;
+}
+
+.gap_40 > li {
+  padding: 40px;
+}
+
+.gap_50 {
+  margin: -50px;
+}
+
+.gap_50 > li {
+  padding: 50px;
+}
+
+.gap_60 {
+  margin: -60px;
+}
+
+.gap_60 > li {
+  padding: 60px;
+}
+
+/*# sourceMappingURL=labstrap.css.map */
